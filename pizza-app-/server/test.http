@@ -1,0 +1,18 @@
+POST http://localhost:4000/sign-in/admin
+Content-Type: application/json
+
+{
+    "name": "Rinor Rexhaj",
+    "password": "Rinori1010"
+}
+
+###
+
+GET http://localhost:4000/orders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6eyJfaWQiOiI2MzZmZjViYjkwNWFlMzEyYTkwZmZkMWYiLCJuYW1lIjoiUmlub3IgUmV4aGFqIiwicGFzc3dvcmQiOiIkMmIkMTAkRG1pVXlmb1JwM2lXQTdsenJveDI4T00ycTZSMkdZL001c1MvV0JSblY3RmJKc2hZcU5FQ0ciLCJfX3YiOjB9LCJpYXQiOjE2Njg0NDc2NzcsImV4cCI6MTY2ODQ0Nzk3N30.wzEZz6aLOm5AmVGu9XZXRHmukvEx6vj4KmMQOL1CgJE
+
+
+### 
+
+PATCH http://localhost:4000/orders/63680366e852f1f9cb1fdf9d
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZG1pbiI6eyJfaWQiOiI2MzZmZjViYjkwNWFlMzEyYTkwZmZkMWYiLCJuYW1lIjoiUmlub3IgUmV4aGFqIiwicGFzc3dvcmQiOiIkMmIkMTAkRG1pVXlmb1JwM2lXQTdsenJveDI4T00ycTZSMkdZL001c1MvV0JSblY3RmJKc2hZcU5FQ0ciLCJfX3YiOjB9LCJpYXQiOjE2Njg0NDc2NzcsImV4cCI6MTY2ODQ0Nzk3N30.wzEZz6aLOm5AmVGu9XZXRHmukvEx6vj4KmMQOL1CgJE
